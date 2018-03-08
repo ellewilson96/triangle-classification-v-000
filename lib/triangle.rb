@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    if self.all > 0 && (@x == @y && @x == @z)
+    if triangle.all > 0 && (@x == @y && @x == @z)
       triangle = :equilateral
     elsif @x == @y || @x == @z || @y == @z
       triangle = :isosceles
