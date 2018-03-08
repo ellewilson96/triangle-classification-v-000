@@ -17,7 +17,7 @@ class Triangle
       triangle = :scalene
     elsif
       @x || @y || @z == 0
-      
+
       raise TriangleError
     end
   end
