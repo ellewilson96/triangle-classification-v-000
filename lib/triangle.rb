@@ -20,7 +20,7 @@ class Triangle
       triangle = :scalene
   end
 end
-
+end
   class TriangleError < StandardError
 
 end
