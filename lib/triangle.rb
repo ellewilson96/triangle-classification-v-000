@@ -15,8 +15,8 @@ class Triangle
     elsif
       @x != @y && @x != @z
       triangle = :scalene
-    elsif 
-      @x || @y || @z = 0
+    elsif
+      @x || @y || @z == 0
       
       raise TriangleError
     end
